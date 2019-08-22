@@ -7,4 +7,4 @@ spring:
     password: root
     url: jdbc:mysql://192.168.255.129:3306/order?characterEncoding=utf-8&useSSl=false
 env:
-  dev
+  test
