@@ -1,0 +1,14 @@
+zuul:
+  routes:
+#  路由
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      # 敏感头过滤
+      sensitiveHeader:
+
+# 简洁路由
+#    product: /myProduct/**
+#    禁用某些路由
+  ignored-patterns:
+    - /**/product/findList
